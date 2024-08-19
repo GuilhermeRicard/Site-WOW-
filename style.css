@@ -16,7 +16,7 @@
   --cor_princ3: rgb(92, 63, 255);
 }
 body{
-  background-color: var(--cor_princ3);
+  background-color: var(--cor_princ0);
   padding: 10px;
   margin: 10px;
 }
@@ -27,4 +27,22 @@ h1{
   margin: 5px;
   text-align: end;
   font-family:"Kanit", sans-serif; 
+}
+
+.A1{
+  position: absolute;
+  height: 400px ;
+  width: 1200px ;
+  top: 105px;
+  left: 10px;
+  margin: 1%;
+  padding: 1%;
+  background-color: var(--cor_princ2);
+  border-radius: 10px;
+}
+
+p{
+  color: var(--cor_princ0);
+  margin: 2px ;
+  padding: 2px ;
 }
