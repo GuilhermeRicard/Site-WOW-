@@ -33,7 +33,7 @@ h1{
   position: absolute;
   height: 400px ;
   width: 1200px ;
-  top: 105px;
+  top: 85px;
   left: 10px;
   margin: 1%;
   padding: 1%;
@@ -45,4 +45,37 @@ p{
   color: var(--cor_princ0);
   margin: 2px ;
   padding: 2px ;
+  font-size: 25px;
 }
+
+.A2{
+  position: absolute;
+  height: 240px ;
+  width: 1200px ;
+  top: 530px;
+  left: 10px;
+  margin: 1%;
+  padding: 1%;
+  background-color: var(--cor_princ2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+:hover.A1{
+  background-color: var(--cor_princ3);
+}
+
+:hover.A2{
+  background-color: var(--cor_princ3);
+}
+  
+footer{
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  top: 850px;
+  left:0px;
+  background-color: skyblue;
+
+}
+
